@@ -217,3 +217,207 @@
 .speaker-card h3{
     margin-left: 20px;
 }
+
+
+
+
+
+
+
+
+
+/* Pricing Section */
+
+
+
+.pricing{
+
+    padding:100px 70px;
+    text-align:center;
+    background:#ffffff;
+}
+
+.pricing h2{
+
+    font-size:60px;
+    color:#162335;
+    margin-bottom:15px;
+}
+
+.subtitle{
+
+    color:#707070;
+    font-size:22px;
+    margin-bottom:60px;
+}
+
+
+
+.pricing-container{
+
+    display:flex;
+    justify-content:center;
+    gap:25px;
+}
+
+.card{
+
+    width:330px;
+
+    padding:30px;
+
+    border:1px solid #e6e6e6;
+
+    border-radius:15px;
+
+    text-align:left;
+
+    background:white;
+}
+
+
+
+.pro{
+
+    background:#111f2f;
+
+    color:white;
+
+    border:none;
+}
+
+
+
+.plan{
+
+    color:#888;
+
+    font-size:15px;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+}
+
+.pro .plan{
+
+    color:#5da9ff;
+}
+
+
+
+.card h1{
+
+    font-size:50px;
+
+    margin:10px 0;
+}
+
+.card small{
+
+    color:#888;
+}
+
+.pro small{
+
+    color:#d1d1d1;
+}
+
+
+
+.card hr{
+
+    margin:25px 0;
+
+    border:none;
+
+    border-top:1px solid #e2e2e2;
+}
+
+.pro hr{
+
+    border-top:1px solid rgba(255,255,255,.15);
+}
+
+
+
+.card ul{
+
+    list-style:none;
+}
+
+.card ul li{
+
+    margin:18px 0;
+
+    position:relative;
+
+    padding-left:18px;
+
+    color:#444;
+}
+
+.card ul li::before{
+
+    content:"•";
+
+    position:absolute;
+
+    left:0;
+
+    color:#406be3;
+
+    font-size:22px;
+
+    top:-2px;
+}
+
+.pro ul li{
+
+    color:#e8e8e8;
+}
+
+
+
+.card a{
+
+    display:block;
+
+    margin-top:35px;
+
+    text-align:center;
+
+    padding:15px;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+    border:2px solid #3567f4;
+
+    color:#3567f4;
+
+    font-weight:600;
+}
+
+
+
+.pro a{
+
+    background:#3567f4;
+
+    color:white;
+
+    border:none;
+}
+
+
+
+.team-btn{
+
+    border:2px solid #0f1115 !important;
+
+    color:#1d2735 !important;
+}
+
+
