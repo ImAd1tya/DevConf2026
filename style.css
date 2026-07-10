@@ -129,7 +129,7 @@
 
 
 
-/* ================= Speakers Section ================= */
+/*Speakers Section*/
 
 .speakers{
 
@@ -145,7 +145,7 @@
     font-weight:700;
 }
 
-/* Grid */
+
 
 .speaker-container{
 
@@ -156,7 +156,7 @@
     gap:35px;
 }
 
-/* Card */
+
 
 .speaker-card{
     background: white;
@@ -174,7 +174,6 @@
     object-fit:cover;
 }
 
-/* Category */
 
 .category{
 
@@ -194,7 +193,7 @@
     font-weight:600;
 }
 
-/* Name */
+
 
 .speaker-card h3{
 
@@ -203,7 +202,6 @@
     font-size:24px;
 }
 
-/* Company */
 
 .speaker-card p{
 
