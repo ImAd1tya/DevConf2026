@@ -1,5 +1,4 @@
 
-
 *{
     margin:0;
     padding:0;
@@ -760,4 +759,380 @@
     color:#cbd5e1;
 
     font-size:15px;
+}
+
+/* =========================================================
+   RESPONSIVE DESIGN
+   ========================================================= */
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ---------- Tablets / smaller laptops ---------- */
+@media (max-width: 1024px) {
+
+    .navbar {
+        padding: 15px 35px;
+    }
+
+    .nav-links {
+        gap: 22px;
+    }
+
+    .nav-links a {
+        font-size: 15px;
+    }
+
+    .btn {
+        padding: 12px 20px;
+    }
+
+    .hero {
+        min-height: 700px;
+        height: 90vh;
+    }
+
+    .hero-content {
+        max-width: 700px;
+    }
+
+    .hero-content h1 {
+        font-size: 3.2rem;
+    }
+
+    .hero-content p {
+        font-size: 1.25rem;
+        margin-bottom: 120px;
+    }
+
+    .speakers {
+        padding: 80px 50px;
+    }
+
+    .speaker-card {
+        margin-left: 0;
+    }
+
+    .pricing {
+        padding: 80px 35px;
+    }
+
+    .pricing-container {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: min(330px, 100%);
+        box-sizing: border-box;
+    }
+
+    .venue-section {
+        padding: 80px 5%;
+    }
+
+    .footer {
+        padding: 35px 40px;
+    }
+}
+
+
+/* ---------- Mobile devices ---------- */
+@media (max-width: 768px) {
+
+    /* Navbar */
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 12px 20px;
+    }
+
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .nav-links {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px 22px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+
+
+    /* Hero */
+    .hero {
+        min-height: 600px;
+        height: 80vh;
+    }
+
+    .hero-content {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: clamp(2.2rem, 9vw, 3rem);
+        line-height: 1.15;
+    }
+
+    .hero-content p {
+        font-size: 1.05rem;
+        line-height: 1.6;
+        margin-bottom: 90px;
+    }
+
+    .hero-btn {
+        top: auto;
+        bottom: 25px;
+        padding: 13px 28px;
+        white-space: nowrap;
+    }
+
+
+    /* Speakers */
+    .speakers {
+        padding: 60px 20px;
+    }
+
+    .title {
+        font-size: clamp(30px, 8vw, 42px);
+        margin-bottom: 35px;
+    }
+
+    .speaker-container {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .speaker-card {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .speaker-card img {
+        height: 250px;
+    }
+
+    .speaker-card h3 {
+        font-size: 21px;
+        margin-left: 18px;
+    }
+
+    .speaker-card p {
+        margin-left: 18px;
+        padding-right: 18px;
+    }
+
+    .category {
+        margin-left: 0;
+    }
+
+
+    /* Pricing */
+    .pricing {
+        padding: 60px 20px;
+    }
+
+    .pricing h2 {
+        font-size: clamp(38px, 10vw, 52px);
+    }
+
+    .subtitle {
+        font-size: 17px;
+        line-height: 1.5;
+        margin-bottom: 35px;
+    }
+
+    .pricing-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 420px;
+        padding: 25px;
+    }
+
+    .card h1 {
+        font-size: 42px;
+    }
+
+
+    /* Venue */
+    .venue-section {
+        padding: 60px 20px;
+    }
+
+    .venue-header {
+        margin-bottom: 40px;
+    }
+
+    .venue-header h2 {
+        font-size: clamp(30px, 8vw, 42px);
+    }
+
+    .venue-header p {
+        font-size: 15px;
+    }
+
+    .venue-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .venue-info {
+        padding: 30px 24px;
+    }
+
+    .venue-signage {
+        padding: 25px 20px;
+    }
+
+    .signage-row {
+        gap: 10px;
+        padding: 17px 0;
+    }
+
+    .signage-code {
+        width: 42px;
+        font-size: 18px;
+    }
+
+    .signage-body strong {
+        font-size: 14px;
+    }
+
+    .signage-body span {
+        font-size: 12px;
+    }
+
+    .signage-track-tag {
+        font-size: 9px;
+        padding: 3px 5px;
+    }
+
+
+    /* Footer */
+    .footer {
+        padding: 30px 20px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .footer-logo img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .social-links {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+
+/* ---------- Small phones ---------- */
+@media (max-width: 480px) {
+
+    .navbar {
+        padding: 10px 15px;
+    }
+
+    .nav-links {
+        gap: 8px 14px;
+    }
+
+    .nav-links a {
+        font-size: 13px;
+    }
+
+    .hero {
+        min-height: 540px;
+    }
+
+    .hero-content {
+        padding: 15px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.15rem;
+    }
+
+    .hero-content p {
+        font-size: 0.95rem;
+        margin-bottom: 75px;
+    }
+
+    .hero-btn {
+        bottom: 20px;
+        padding: 12px 22px;
+        font-size: 14px;
+    }
+
+    .speakers,
+    .pricing,
+    .venue-section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .speaker-card img {
+        height: 220px;
+    }
+
+    .venue-info,
+    .venue-signage {
+        padding: 22px 17px;
+    }
+
+    .signage-row {
+        align-items: flex-start;
+    }
+
+    .signage-track-tag {
+        display: none;
+    }
+
+    .signage-arrow {
+        width: 16px;
+        height: 16px;
+    }
+
+    .social-links {
+        gap: 10px;
+    }
+}
+
+
+/* ---------- Prevent horizontal scrolling ---------- */
+body {
+    overflow-x: hidden;
 }
